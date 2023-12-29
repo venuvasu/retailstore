@@ -12,7 +12,7 @@ export class LocationMapStack extends Stack {
         style: 'VectorEsriStreets' // map style
       },
       description: 'My Location Map',
-      mapName: 'MyMap'
+      mapName: 'MyMap1'
     });
 
     new CfnOutput(this, 'mapArn', {
