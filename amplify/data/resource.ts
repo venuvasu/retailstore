@@ -11,7 +11,7 @@ const schema = a.schema({
   Product: a
     .model({
       id: a.id().required(),
-      name: a.string().required(),
+      name: a.string(),
       description: a.string(),
       price : a.float(),
       current_stock: a.integer(),
